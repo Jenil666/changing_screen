@@ -305,7 +305,7 @@ class _codeState extends State<code> {
                     )),
                   ),
                 ),
-                InkWell(
+                GestureDetector(
                   onTap: () {
                     if(d!=0)
                     {
@@ -383,7 +383,7 @@ class _codeState extends State<code> {
                     )),
                   ),
                 ),
-                InkWell(
+                GestureDetector(
                   onTap: () {
                     if(d!=0)
                     {
